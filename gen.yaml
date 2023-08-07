@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: b3cde103f3a8cd2dc7100b66267790bb
+  docVersion: 0.1.0
+  speakeasyVersion: 1.68.3
+  generationVersion: 2.81.1
 generation:
   comments:
     disableComments: false
@@ -8,7 +13,7 @@ generation:
   singleTagPerOp: false
   tagNamespacingDisabled: false
 php:
-  version: 0.0.1
+  version: 1.0.0
   maxMethodParams: 0
   namespace: vitor_test\Acme
   packageName: vitor-test/acme-go/test
