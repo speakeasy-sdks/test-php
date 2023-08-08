@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: b3cde103f3a8cd2dc7100b66267790bb
+  docVersion: 0.1.0
+  speakeasyVersion: 1.69.1
+  generationVersion: 2.82.0
 generation:
   comments:
     disableComments: false
@@ -7,8 +12,13 @@ generation:
   sdkClassName: Acme-Go
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  php:
+    core: 2.82.0
+    globalServerURLs: 2.81.1
+    inputOutputModels: 2.81.1
 php:
-  version: 0.0.1
+  version: 1.0.0
   maxMethodParams: 0
   namespace: vitor_test\Acme
   packageName: vitor-test/acme-go/test
