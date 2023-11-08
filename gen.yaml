@@ -1,14 +1,30 @@
 configVersion: 1.0.0
+management:
+  docChecksum: b3cde103f3a8cd2dc7100b66267790bb
+  docVersion: 0.1.0
+  speakeasyVersion: 1.115.0
+  generationVersion: 2.183.0
 generation:
-  comments:
-    disableComments: false
-    omitDescriptionIfSummaryPresent: false
-  baseServerURL: ""
+  comments: {}
   sdkClassName: Acme-Go
-  singleTagPerOp: false
-  tagNamespacingDisabled: false
+  repoURL: https://github.com/speakeasy-sdks/test-php.git
+features:
+  php:
+    core: 3.1.0
+    globalServerURLs: 2.82.0
+    inputOutputModels: 2.81.1
 php:
-  version: 0.0.1
+  version: 0.1.0
+  imports:
+    option: openapi
+    paths:
+      callbacks: Models/Callbacks
+      errors: Models/Errors
+      operations: Models/Operations
+      shared: Models/Components
+      webhooks: Models/Webhooks
+  installationURL: https://github.com/speakeasy-sdks/test-php
   maxMethodParams: 0
   namespace: vitor_test\Acme
   packageName: vitor-test/acme-go/test
+  repoSubDirectory: .
